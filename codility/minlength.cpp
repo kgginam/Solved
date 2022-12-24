@@ -94,10 +94,3 @@ int solution(vector<vector<int>> maps)
     solve(maps, right, 0, 0, 1, &answer);
     return answer;
 }
-
-int main()
-{
-
-    
-    return 0;
-}
