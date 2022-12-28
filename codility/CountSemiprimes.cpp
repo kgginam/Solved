@@ -2,7 +2,7 @@
 #include <cmath>
 
 using namespace std;
-
+//O(N * log(log(N)) + M)
 vector<int> solution(int N, vector<int> &P, vector<int> &Q) {
     vector<int> result(P.size(), 0);
     int count = 0;
